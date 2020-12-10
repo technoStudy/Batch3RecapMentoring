@@ -11,19 +11,20 @@ public class SwitchStatementEx2 {
          */
         String selection = "B";
 
-            switch (selection) {
-                case "A":
-                    System.out.println("Congrats. Correct answer!");
-                    break;
-                case "B":
-                case "C":
-                case "D":
-                case "E":
-                    System.out.println("Sorry, it is not correct.");
-                    break;
-                default:
-                    System.out.println("Invalid choice");
-            }
+        switch (selection) {
+            // if answer is "C"
+            case "C":
+                System.out.println("Congrats. Correct answer!");
+                break;
+            case "A":
+            case "B":
+            case "D":
+            case "E":
+                System.out.println("Sorry, it is not correct.");
+                break;
+            default:
+                System.out.println("Invalid choice");
+        }
     }
 
 }
