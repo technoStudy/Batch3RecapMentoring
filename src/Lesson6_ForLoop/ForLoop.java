@@ -10,10 +10,10 @@ package Lesson6_ForLoop;
 - optional parameters and infinite for loop
 - for loop with two or more initializer
 - keyword break (with an example)
--keyword continue (with an example)
+- keyword continue (with an example)
 - Some more examples
    - check if a given number is a prime number
-   - print all the capital letters of a given string has
+   - print all the capital letters of a given string
 - nested loops with examples
     - print all the prime numbers less than a given number
     - print all the possible letter pairs by using the letters a, b, c and d
@@ -54,16 +54,40 @@ public class ForLoop {
 //            System.out.println(a + " + " + b + " = 10");
 //        }
 
-        int min = 12;
-        int max = 79;
-        int key = 9;
-        // print numbers between min and max before you come across the key or its twice value.
-        for (int i = 12; i <= 79 ; i++) {
-            System.out.println(i);
-            if (i == key || i == 2*key)
-                break;
-        }
+//        int min = 12;
+//        int max = 1879;
+//        int key = 9;
+//        // print numbers between min and max before you come across the key or its twice value.
+//        for (int i = 12; i <= 79 ; i++) {
+//            System.out.println(i);
+//            if (i == key || i == 2*key)
+//                break;
+//        }
 
+//        int number = 19;
+//
+//        boolean isPrime = true;
+//
+//        for (int i = 2; i < number/2; i++) {
+//            if (number % i == 0) {
+//                isPrime = false;
+//                break;
+//            }
+//        }
+//        if(isPrime) {
+//            System.out.println(number + " is a prime number.");
+//        } else {
+//            System.out.println(number + " is NOT a prime number.");
+//        }
+
+//        String str = "TechNoStuDY";
+
+//        for (int i = 0; i < str.length(); i++) {
+//            char letter = str.charAt(i);
+//           if(letter >= 'A'  &&  letter  <='Z'  ) {
+//               System.out.print(letter + ", ");
+//           }
+//        }
 
     }
 }
