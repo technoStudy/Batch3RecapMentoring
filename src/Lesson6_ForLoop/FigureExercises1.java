@@ -5,7 +5,7 @@ public class FigureExercises1 {
 
     public static void main(String[] args) {
 
-/*//          *
+/*//        *
 //          **
 //          ***
 //          ****
