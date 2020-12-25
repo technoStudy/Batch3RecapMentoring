@@ -19,8 +19,22 @@ public class OptionExercise {
             scanner = new Scanner(System.in);
             option = scanner.nextInt();
         }
+
         System.out.println();
         System.out.println("Thank you for selecting the option " + option);
 
     }
+
+
+    /*
+
+    do {
+
+    // some code go here
+
+    } while (boolean);
+
+     */
+
+
 }

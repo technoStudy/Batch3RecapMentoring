@@ -3,8 +3,7 @@ package Lesson7_WhileLoop;
 /*
 structure of a while loop
 converting a for loop to a while loop
-Exs:
-    - do-while loop
+
     - code a guess game!
  */
 
