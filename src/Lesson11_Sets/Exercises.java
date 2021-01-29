@@ -38,21 +38,18 @@ public class Exercises {
     }
 
 
-//    - Create a set of place names. Delete all places whose name starts with "New".
-    public static HashSet<String> removeStatesStartingNew(HashSet<String> placeNames){
+    //    - Create a set of place names. Delete all places whose name starts with "New".
+    public static HashSet<String> removeStatesStartingNew(HashSet<String> placeNames) {
 
-        ArrayList<String> list = new ArrayList<>();
-
+        ArrayList<String> placeList = new ArrayList<>();
         for (String place : placeNames) {
             if(place.startsWith("New")){
-                list.add(place);
+               placeList.add(place);
             }
         }
+        placeNames.removeAll(placeList);
 
-        placeNames.removeAll(list);
         return placeNames;
-
-
     }
 
 }
