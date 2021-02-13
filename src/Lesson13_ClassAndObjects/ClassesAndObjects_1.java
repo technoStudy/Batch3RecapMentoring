@@ -1,4 +1,4 @@
-package ClassAndObjects;
+package Lesson13_ClassAndObjects;
 
 /*
 - classes vs objects(instances)

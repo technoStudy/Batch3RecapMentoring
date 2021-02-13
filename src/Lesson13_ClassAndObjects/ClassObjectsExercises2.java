@@ -1,4 +1,4 @@
-package ClassAndObjects;
+package Lesson13_ClassAndObjects;
 
 public class ClassObjectsExercises2 {
 
