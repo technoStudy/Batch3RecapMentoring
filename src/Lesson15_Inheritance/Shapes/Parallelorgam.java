@@ -11,5 +11,4 @@ public class Parallelorgam {
         this.angle = angle;
     }
 
-
 }
