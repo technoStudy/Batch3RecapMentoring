@@ -30,5 +30,7 @@ class Call {
 
         overloading.numberCall('a');
 
+        System.out.println('a' + 'b');   // 195
+//   byte > char > short > int > long > float > double
     }
 }

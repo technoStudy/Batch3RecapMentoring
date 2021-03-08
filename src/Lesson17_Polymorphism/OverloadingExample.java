@@ -8,7 +8,7 @@ public class OverloadingExample {
         SignInWithFacebook signInWithFacebook = new SignInWithFacebook();
 
         SignIn userSignIn = new SignIn();
-        userSignIn.signIn(signInWithFacebook);
+        userSignIn.signIn(signInWithCredentials);
 
     }
 

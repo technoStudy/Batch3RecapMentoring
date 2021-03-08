@@ -21,7 +21,7 @@ package Lesson17_Polymorphism;
 
 public class Polymorphism {
 
-    // Method Overloading
+    // In Class Method Overloading
     public static int addition(int a, int b){
         return a + b;
     }
@@ -38,11 +38,9 @@ public class Polymorphism {
         System.out.println(name + "is " + age + " years old.");;
     }
 
-
     public static void main(String[] args) {
         System.out.println( addition(5, 6) );
 
         addition(5, 6, 12);
-
     }
 }
